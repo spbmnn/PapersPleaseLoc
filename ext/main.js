@@ -94,8 +94,8 @@ function fixFonts()
 	//var fontInfo = getFontInfo();
 	$('.context:not(.capture) .t').each(function() 
 	{
-		var fontFamily = $(this).css("font-family");
-		$(this).css("font-family", "'" + fontFamily + "', \'fallback\'");
+		//var fontFamily = $(this).css("font-family");
+		//$(this).css("font-family", "'" + fontFamily + "', \'fallback\'");
 	});
 }
 
