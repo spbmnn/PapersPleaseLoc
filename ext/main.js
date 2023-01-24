@@ -95,7 +95,7 @@ function fixFonts()
 	$('.context:not(.capture) .t').each(function() 
 	{
 		var fontFamily = $(this).css("font-family");
-		$(this).css("font-family", "\'" + fontFamily + "\', \'fallback\'");
+		$(this).css("font-family", "'" + fontFamily + "', \'fallback\'");
 	});
 }
 
@@ -684,7 +684,7 @@ function loadBakedDataFiles()
 //-----------------------------------------------------------------------------------------------------------
 // Zoom
 //-----------------------------------------------------------------------------------------------------------
-var zoom = 1;
+var zoom = 2;
 function zoomIn(zoom_)
 {
 	zoom_ = (typeof zoom_ === 'undefined') ? 2 : zoom_;
